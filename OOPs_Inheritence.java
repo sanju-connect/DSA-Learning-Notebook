@@ -20,6 +20,6 @@ class circle extends shape {
 
 public class OOPs_Inheritence {
     public static void main(String[] args) {
-
+        account account1 = new account();
     }
 }
