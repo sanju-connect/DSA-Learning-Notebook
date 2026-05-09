@@ -1,22 +1,15 @@
-abstract class animal {
-    abstract void walk();
+class student {
+    String name;
+    static String school;
 }
 
-class horse extends animal {
-    public void walk() {
-        System.out.println("Walks on Four Legs");
-    }
-}
-
-class chicken extends animal {
-    public void walk() {
-        System.out.println("Walks on Two Legs");
-    }
-}
 
 public class abstraction {
     public static void main(String[] args) {
-        horse Horse = new horse();
-        Horse.walk();
+        student.school = "MES";
+        student student1 = new student();
+        student1.name = "Sanjay";
+
+        System.out.println();
     }
 }
